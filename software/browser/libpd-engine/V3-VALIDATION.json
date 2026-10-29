@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "snare_max_difference_from_prior_mono_engine": 0,
+  "kick": {
+    "peak": 0.1794845014810562,
+    "rms": 0.0008118802984890818,
+    "nonfinite": 0
+  },
+  "new_patterns": 9,
+  "patch_load_errors": [],
+  "method": "Actual shipped libpd AudioWorklet executed in isolated VM; independent stereo input routes and unchanged-snare regression. Does not establish browser layout or audible UX."
+}

@@ -1,0 +1,235 @@
+{
+  "scope": "Named original browser functions and local adapter helpers, vendor excluded",
+  "definitions": [
+    {
+      "name": "$",
+      "path": "software/browser/app.js",
+      "line": 6
+    },
+    {
+      "name": "status",
+      "path": "software/browser/app.js",
+      "line": 12
+    },
+    {
+      "name": "emitState",
+      "path": "software/browser/app.js",
+      "line": 13
+    },
+    {
+      "name": "actualRattle",
+      "path": "software/browser/app.js",
+      "line": 14
+    },
+    {
+      "name": "updateSound",
+      "path": "software/browser/app.js",
+      "line": 15
+    },
+    {
+      "name": "updateLatch",
+      "path": "software/browser/app.js",
+      "line": 16
+    },
+    {
+      "name": "releaseLatch",
+      "path": "software/browser/app.js",
+      "line": 21
+    },
+    {
+      "name": "setMode",
+      "path": "software/browser/app.js",
+      "line": 22
+    },
+    {
+      "name": "enable",
+      "path": "software/browser/app.js",
+      "line": 28
+    },
+    {
+      "name": "meter",
+      "path": "software/browser/app.js",
+      "line": 45
+    },
+    {
+      "name": "frame",
+      "path": "software/browser/app.js",
+      "line": 47
+    },
+    {
+      "name": "strike",
+      "path": "software/browser/app.js",
+      "line": 49
+    },
+    {
+      "name": "show",
+      "path": "software/browser/app.js",
+      "line": 55
+    },
+    {
+      "name": "typingTarget",
+      "path": "software/browser/app.js",
+      "line": 68
+    },
+    {
+      "name": "preset",
+      "path": "software/browser/app.js",
+      "line": 82
+    },
+    {
+      "name": "syncSlider",
+      "path": "software/browser/app.js",
+      "line": 83
+    },
+    {
+      "name": "bindPercent",
+      "path": "software/browser/app.js",
+      "line": 84
+    },
+    {
+      "name": "finish",
+      "path": "software/browser/app.js",
+      "line": 84
+    },
+    {
+      "name": "edited",
+      "path": "software/browser/app.js",
+      "line": 85
+    },
+    {
+      "name": "drawPattern",
+      "path": "software/browser/app.js",
+      "line": 86
+    },
+    {
+      "name": "paint",
+      "path": "software/browser/app.js",
+      "line": 86
+    },
+    {
+      "name": "stopGroove",
+      "path": "software/browser/app.js",
+      "line": 88
+    },
+    {
+      "name": "scheduleEvent",
+      "path": "software/browser/app.js",
+      "line": 89
+    },
+    {
+      "name": "startGroove",
+      "path": "software/browser/app.js",
+      "line": 90
+    },
+    {
+      "name": "tick",
+      "path": "software/browser/app.js",
+      "line": 90
+    },
+    {
+      "name": "cursor",
+      "path": "software/browser/app.js",
+      "line": 90
+    },
+    {
+      "name": "dismissGate",
+      "path": "software/browser/app.js",
+      "line": 96
+    },
+    {
+      "name": "grainTexture",
+      "path": "software/browser/materials.js",
+      "line": 3
+    },
+    {
+      "name": "finishMaterial",
+      "path": "software/browser/materials.js",
+      "line": 6
+    },
+    {
+      "name": "roomImpulse",
+      "path": "software/browser/room-reverb.js",
+      "line": 2
+    },
+    {
+      "name": "createRoomReverb",
+      "path": "software/browser/room-reverb.js",
+      "line": 3
+    },
+    {
+      "name": "roleOf",
+      "path": "software/browser/scene.js",
+      "line": 16
+    },
+    {
+      "name": "hit",
+      "path": "software/browser/scene.js",
+      "line": 17
+    },
+    {
+      "name": "reset",
+      "path": "software/browser/scene.js",
+      "line": 18
+    },
+    {
+      "name": "resize",
+      "path": "software/browser/scene.js",
+      "line": 19
+    },
+    {
+      "name": "latchInput",
+      "path": "software/browser/scene.js",
+      "line": 27
+    },
+    {
+      "name": "release",
+      "path": "software/browser/scene.js",
+      "line": 30
+    },
+    {
+      "name": "frame",
+      "path": "software/browser/scene.js",
+      "line": 33
+    },
+    {
+      "name": "editablePattern",
+      "path": "software/browser/sequencer.js",
+      "line": 1
+    },
+    {
+      "name": "loosenValues",
+      "path": "software/browser/sequencer.js",
+      "line": 2
+    },
+    {
+      "name": "toggleStep",
+      "path": "software/browser/sequencer.js",
+      "line": 3
+    },
+    {
+      "name": "matches",
+      "path": "software/browser/sequencer.js",
+      "line": 3
+    },
+    {
+      "name": "setLoosenStep",
+      "path": "software/browser/sequencer.js",
+      "line": 4
+    },
+    {
+      "name": "createMessierPd",
+      "path": "software/browser/libpd-engine/engine.js",
+      "line": 5
+    },
+    {
+      "name": "sendFloat",
+      "path": "software/browser/libpd-engine/engine.js",
+      "line": 35
+    },
+    {
+      "name": "setParams",
+      "path": "software/browser/libpd-engine/engine.js",
+      "line": 39
+    }
+  ]
+}

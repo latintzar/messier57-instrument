@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "engine": "libpd-wasm 0.1.6, Pd 0.56.2 C DSP",
+  "method": "Shipped AudioWorklet executed in isolated Node VM, mono archive excitation, 44.1kHz, two 64-frame Pd ticks per quantum; browser integration is outside this numeric test",
+  "results": [
+    {
+      "params": {
+        "tuning": 0.6,
+        "rattle": 0.8,
+        "damping": 0.6
+      },
+      "peak": 0.3800877630710602,
+      "rms": 0.02055323318169379,
+      "nonfinite_samples": 0,
+      "near_clip_samples": 0,
+      "checksum": -68.1281466398473,
+      "errors": []
+    },
+    {
+      "params": {
+        "tuning": 0.1,
+        "rattle": 0.8,
+        "damping": 0.6
+      },
+      "peak": 0.42259588837623596,
+      "rms": 0.028103391443572035,
+      "nonfinite_samples": 0,
+      "near_clip_samples": 0,
+      "checksum": 11.527813017526626,
+      "errors": []
+    },
+    {
+      "params": {
+        "tuning": 0.9,
+        "rattle": 0.8,
+        "damping": 0.6
+      },
+      "peak": 0.24173451960086823,
+      "rms": 0.017041853878902995,
+      "nonfinite_samples": 0,
+      "near_clip_samples": 0,
+      "checksum": -106.48739126254604,
+      "errors": []
+    },
+    {
+      "params": {
+        "tuning": 0.6,
+        "rattle": 0.1,
+        "damping": 0.6
+      },
+      "peak": 0.48002105951309204,
+      "rms": 0.04404660084815907,
+      "nonfinite_samples": 0,
+      "near_clip_samples": 0,
+      "checksum": -169.2273823677305,
+      "errors": []
+    },
+    {
+      "params": {
+        "tuning": 0.6,
+        "rattle": 0.95,
+        "damping": 0.6
+      },
+      "peak": 0.3530869483947754,
+      "rms": 0.017098620505171743,
+      "nonfinite_samples": 0,
+      "near_clip_samples": 0,
+      "checksum": -62.44813683266025,
+      "errors": []
+    },
+    {
+      "params": {
+        "tuning": 0.6,
+        "rattle": 0.8,
+        "damping": 0.1
+      },
+      "peak": 0.3823239803314209,
+      "rms": 0.020882401561642918,
+      "nonfinite_samples": 0,
+      "near_clip_samples": 0,
+      "checksum": -83.12601823037122,
+      "errors": []
+    },
+    {
+      "params": {
+        "tuning": 0.6,
+        "rattle": 0.8,
+        "damping": 0.95
+      },
+      "peak": 0.28843551874160767,
+      "rms": 0.014385813235757102,
+      "nonfinite_samples": 0,
+      "near_clip_samples": 0,
+      "checksum": -35.01080640589956,
+      "errors": []
+    },
+    {
+      "params": {
+        "tuning": 0,
+        "rattle": 0,
+        "damping": 0
+      },
+      "peak": 0.5413250923156738,
+      "rms": 0.0575574957539908,
+      "nonfinite_samples": 0,
+      "near_clip_samples": 0,
+      "checksum": -2.998243879397023,
+      "errors": []
+    },
+    {
+      "params": {
+        "tuning": 1,
+        "rattle": 1,
+        "damping": 1
+      },
+      "peak": 0.20312051475048065,
+      "rms": 0.011646485674757645,
+      "nonfinite_samples": 0,
+      "near_clip_samples": 0,
+      "checksum": -49.0833544071139,
+      "errors": []
+    }
+  ]
+}

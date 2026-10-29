@@ -1,0 +1,14 @@
+{
+  "upstream": "https://github.com/chairaudio/CHAIR-Pd-library/blob/main/examples/abstractions/bongo~.pd",
+  "github_blob": "cad41f2b8c771e33f2c88b36e1d6463569a4e198",
+  "bundled_git_blob": "cad41f2b8c771e33f2c88b36e1d6463569a4e198",
+  "upstream_byte_identical": true,
+  "params": [
+    0.02,
+    0.94,
+    0.08
+  ],
+  "scope": "CHAIR bongo resonator tuned low as a kick, as in the recovered 2026 deskdrum experiment. New audition voice, not historical Messier hardware.",
+  "excitation": "190ms damped low-frequency beater/body excitation, with pitch sweep into a 55Hz body and only a small initial noise tap; actual CHAIR bongo~ remains the resonator",
+  "verification": "V4-KICK-VALIDATION.json: strongest output at 67Hz, finite sustained bass body"
+}

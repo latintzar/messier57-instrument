@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "peak": 0.6228670477867126,
+  "nonfinite": 0,
+  "dominant_hz": 67,
+  "bass_band_power_fraction_35_120_vs_35_400": 0.994947383618387,
+  "body_rms_30_200ms": 0.22156161763780355,
+  "tail_rms_200_450ms": 0.004441427830481887,
+  "errors": []
+}

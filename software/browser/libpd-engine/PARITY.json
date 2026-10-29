@@ -1,0 +1,18 @@
+{
+  "native_pd_version": "0.55-0",
+  "wasm_pd_version": "0.56.2",
+  "sample_rate": 44100,
+  "samples_compared": 97020,
+  "input": "0.5 impulse followed by zeros",
+  "test_only_change": "all three noise~ objects replaced by sig~ 0 in both graphs; delivered patch unchanged",
+  "max_absolute_error": 1.4901161193847656e-08,
+  "rms_error": 4.867923675649074e-10,
+  "native_rms": 0.0011713013208615446,
+  "wasm_rms": 0.001171301304469425,
+  "correlation": 0.9999999999999132,
+  "native_peak": 0.24964405596256256,
+  "wasm_peak": 0.24964405596256256,
+  "native_first_nonzero": 0,
+  "wasm_first_nonzero": 0,
+  "exact_sample_matches": 19254
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "score": "ijexa.txt",
+    "events": 27,
+    "passed": true
+  },
+  {
+    "score": "maracatu.txt",
+    "events": 27,
+    "passed": true
+  },
+  {
+    "score": "baile.txt",
+    "events": 29,
+    "passed": true
+  },
+  {
+    "score": "tamborzao.txt",
+    "events": 24,
+    "passed": true
+  },
+  {
+    "score": "partido.txt",
+    "events": 27,
+    "passed": true
+  },
+  {
+    "score": "secondline.txt",
+    "events": 32,
+    "passed": true
+  },
+  {
+    "score": "garage.txt",
+    "events": 26,
+    "passed": true
+  },
+  {
+    "score": "afrobeat.txt",
+    "events": 32,
+    "passed": true
+  },
+  {
+    "score": "broken.txt",
+    "events": 27,
+    "passed": true
+  },
+  {
+    "score": "dembow.txt",
+    "events": 21,
+    "passed": true
+  }
+]

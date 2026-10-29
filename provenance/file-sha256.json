@@ -1,0 +1,785 @@
+{
+  "self_excluded": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 46,
+      "sha256": "f3c8fe5b9ed6144f7ab014e56566b7e4e705160a7cfe956d980e69b59bb7524e"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1395,
+      "sha256": "d4e7c7d06c35f28875ae5ef86e7ec14ae9860c002521879b145481050bdf413c"
+    },
+    {
+      "path": "PRIVATE-REVIEW.md",
+      "bytes": 1847,
+      "sha256": "80fe0f17240d61c196977ad086f0c00ada83aa816b79e31f15e9ff887b36aa30"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5329,
+      "sha256": "122c67d714e1c82e321fbc214cc07e738cae63950589c46a791da4afe3d580d7"
+    },
+    {
+      "path": "THIRD-PARTY.md",
+      "bytes": 2430,
+      "sha256": "d754dea79788daf0c702eb01b57a32deee716643b769164a32eecc35c18cc5fe"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 4706,
+      "sha256": "c7cc65059a32462da94b232b7e450bfcdfcded262bca85b2a50c2cbd4f24263d"
+    },
+    {
+      "path": "docs/functions.md",
+      "bytes": 4196,
+      "sha256": "7eb7009643dc25fc00ed09214838fd633b51c055e6261ee98a9edde455127d26"
+    },
+    {
+      "path": "hardware/BOM.csv",
+      "bytes": 3704,
+      "sha256": "ffb83f615c55fb95b2b5ba007ca6d0a83f2a4d0a7808d63d43f7c55350f27e9e"
+    },
+    {
+      "path": "hardware/BUILD-NOTES.md",
+      "bytes": 2342,
+      "sha256": "08471eb6d773c7b0798c50de41f0a1dcfdf4187e720091d81aab71f7a842d494"
+    },
+    {
+      "path": "hardware/SPECIFICATIONS.md",
+      "bytes": 2841,
+      "sha256": "d6d477bfe829d6e73559a0546963d6e1849e3ad17c6eb7a826fbb4b4098c7054"
+    },
+    {
+      "path": "hardware/cad/Electric Drum.3dm",
+      "bytes": 71039851,
+      "sha256": "858d27cb88bc2fdeec75a04124cae3b92fcdbf7627e613d6828be017bf17cff1"
+    },
+    {
+      "path": "provenance/RECOVERY.md",
+      "bytes": 2502,
+      "sha256": "6e26e04d13df2190489c2d4bda19ae121d27245f8d8b10fc7f8529a2fe5df6fb"
+    },
+    {
+      "path": "provenance/function-index.json",
+      "bytes": 4721,
+      "sha256": "45b6411699563e9c924f12555337701c0a9b0dacbd9b9693846b7209b5c5bc32"
+    },
+    {
+      "path": "skills/messier57-instrument/SKILL.md",
+      "bytes": 3257,
+      "sha256": "f3a0a5ef379570d0978d891704608cdb673952fa3909535feadfb8fdbd1bbcd9"
+    },
+    {
+      "path": "software/browser/V4-SEQUENCER-VALIDATION.json",
+      "bytes": 226,
+      "sha256": "41ca5f51594323e1646ee3a6c3738ed8ba1006712fce838ec27e10a0ec4ab8d7"
+    },
+    {
+      "path": "software/browser/app.js",
+      "bytes": 18831,
+      "sha256": "0deec8a90f80405e86c17cc8118bee944781a9c111d68fba78044cd683732970"
+    },
+    {
+      "path": "software/browser/assets/drum.png",
+      "bytes": 1324939,
+      "sha256": "af0b14e0b6a2e16850189d0d02bc4cbcd2ecd1895984db98a283d2ccbf02998d"
+    },
+    {
+      "path": "software/browser/assets/fonts/DMSans[opsz,wght].ttf",
+      "bytes": 240164,
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "path": "software/browser/assets/fonts/InstrumentSerif-Italic.ttf",
+      "bytes": 71592,
+      "sha256": "08939b8bdf534afec24ae0ef5e03f948940cd9a8fe08e7fecbad040e62327385"
+    },
+    {
+      "path": "software/browser/assets/fonts/InstrumentSerif-Regular.ttf",
+      "bytes": 70012,
+      "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88"
+    },
+    {
+      "path": "software/browser/assets/fonts/dmsans-OFL.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "software/browser/assets/fonts/instrumentserif-OFL.txt",
+      "bytes": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+    },
+    {
+      "path": "software/browser/assets/fonts/provenance.json",
+      "bytes": 1279,
+      "sha256": "657001447633f69d7e256a1c9eb475f51f63be235eb67106c4c772b37a46179a"
+    },
+    {
+      "path": "software/browser/baile.js",
+      "bytes": 723,
+      "sha256": "f4941b7c57cba688f1fbb4a8fd9e09362e43db0c1b821d6931ba7de244e0c162"
+    },
+    {
+      "path": "software/browser/downloads/messier57-pd-instrument.zip",
+      "bytes": 125734,
+      "sha256": "d65f9332c993673fe016d5f418cd20fd31d0d10869c511c1333a3b7ec0848c45"
+    },
+    {
+      "path": "software/browser/engine/assets/head-excitation.wav",
+      "bytes": 13274,
+      "sha256": "60f4c51efa7b048200010b63f3fc7edd1ff2bc567b103cb69ae16d583276392a"
+    },
+    {
+      "path": "software/browser/engine/assets/kick-excitation.wav",
+      "bytes": 16802,
+      "sha256": "4d4923ef06693d400fc9cc825854b5b1d3da0d4603d49c28faf5ae59a539db60"
+    },
+    {
+      "path": "software/browser/engine/assets/preview-head.wav",
+      "bytes": 194084,
+      "sha256": "135faf4f32a9c0e3c4e01596f6f4fa6e657f66490ae0259240f32d4db067e2f2"
+    },
+    {
+      "path": "software/browser/engine/assets/preview-rim.wav",
+      "bytes": 194084,
+      "sha256": "dcf736cebd8268ce8790333de47cdbe35f41bb3defea2dbec6750007fefad4a0"
+    },
+    {
+      "path": "software/browser/engine/assets/preview-whole.wav",
+      "bytes": 194084,
+      "sha256": "425df0cb435d38a834e1a0cea772fbb4651d8b534d23e097443b8032d215ead8"
+    },
+    {
+      "path": "software/browser/engine/assets/rim-excitation.wav",
+      "bytes": 13274,
+      "sha256": "081b50c2a897613605b9e09941f1d64cace10e7270d616bfcbe1b6b1f5c08a68"
+    },
+    {
+      "path": "software/browser/grooves.js",
+      "bytes": 13525,
+      "sha256": "4f06e1e549295423e7fff8cf621312611127e420d2c9ee7a080346cb3a9faca9"
+    },
+    {
+      "path": "software/browser/grooves.json",
+      "bytes": 26322,
+      "sha256": "e2044f2d2de030e556943d9582c0b8683b289ba0aa19f895c53130072f8eb7cc"
+    },
+    {
+      "path": "software/browser/index.html",
+      "bytes": 5092,
+      "sha256": "614ebc7dc9c3643fe018960b714d0354ce628816f96d65cdd8d33aedc0d4555d"
+    },
+    {
+      "path": "software/browser/libpd-engine/FULL-PARITY.json",
+      "bytes": 312,
+      "sha256": "575ff05bfe579f008c45e82e690866b20e638168168a097510b935981e9a8dd3"
+    },
+    {
+      "path": "software/browser/libpd-engine/KICK-PROVENANCE.json",
+      "bytes": 755,
+      "sha256": "aafef2a091fd52e09c6888e50a591e9dea88ef4765883d258b4f7b0601a19b7f"
+    },
+    {
+      "path": "software/browser/libpd-engine/LICENSE-CHAIR.txt",
+      "bytes": 1068,
+      "sha256": "811c42eed1ae46b98313c474d86edf9dd79532196c21beeaef10633c1a8331b2"
+    },
+    {
+      "path": "software/browser/libpd-engine/LICENSE-libpd.txt",
+      "bytes": 1562,
+      "sha256": "9f8dd8f062123426924410818c96faef08f167d8b42d193f19e514ef33bc9c82"
+    },
+    {
+      "path": "software/browser/libpd-engine/PARITY.json",
+      "bytes": 636,
+      "sha256": "70a1fca9fb0076a282b463e92e74c08bf58479e902140da24cd3bb567b882c35"
+    },
+    {
+      "path": "software/browser/libpd-engine/README.md",
+      "bytes": 4746,
+      "sha256": "028b71dd3226bc181a2e33b8e6183ee0ffd7156f4429de14e052f7484a41b811"
+    },
+    {
+      "path": "software/browser/libpd-engine/RUNTIME-PROVENANCE.json",
+      "bytes": 619,
+      "sha256": "6a6736b32cec00a2a5ce9228baa097f2096940b5dce63abba9ceb700781d2f26"
+    },
+    {
+      "path": "software/browser/libpd-engine/V3-EXCITATION-VALIDATION.json",
+      "bytes": 410,
+      "sha256": "89e50cce9a8bdf0053e82f3c50ce0605c5b1c1d749ac156b37e70bc6f910504a"
+    },
+    {
+      "path": "software/browser/libpd-engine/V3-VALIDATION.json",
+      "bytes": 409,
+      "sha256": "10c24b79054a0424c7db558efcb1545385647a66a4d7bb7ef60f546e10203d02"
+    },
+    {
+      "path": "software/browser/libpd-engine/V4-KICK-VALIDATION.json",
+      "bytes": 261,
+      "sha256": "5aacf925da5faaf3a2bd88c2f72b0df3477835c9369abb2797ea7c2ee9cb4c68"
+    },
+    {
+      "path": "software/browser/libpd-engine/VALIDATION.json",
+      "bytes": 2918,
+      "sha256": "c9bb4d3862cad4230a816ac5bf21cfd76c9e0c378bd5aa2a9806c0ad686bb9da"
+    },
+    {
+      "path": "software/browser/libpd-engine/engine.js",
+      "bytes": 2808,
+      "sha256": "addca0432ba9525e24d36ad723f3ee12e3d27f60cec7713e1eca7a76aacc796f"
+    },
+    {
+      "path": "software/browser/libpd-engine/libpd-worklet.js",
+      "bytes": 1725583,
+      "sha256": "41f9ad430fd17e9977cc65e7c4ffe6370bf5f5f19f6abef64043d74981fd7a87"
+    },
+    {
+      "path": "software/browser/libpd-engine/package-lock.json",
+      "bytes": 1222,
+      "sha256": "9b81f49edc00a20830ab0e95ed016f41f22fb6e0e49a8bde26bf16393fb856ea"
+    },
+    {
+      "path": "software/browser/libpd-engine/package-upstream.json",
+      "bytes": 1312,
+      "sha256": "b4da0186dd62434a43defb9f7a5a06ec0f3648b803f525426372f2d2ea4edde8"
+    },
+    {
+      "path": "software/browser/libpd-engine/source/allp-d~.pd",
+      "bytes": 828,
+      "sha256": "335c92fdc508b4991d9b0d2b28b14d7e9421e9b2c577a3c691682099c47fd420"
+    },
+    {
+      "path": "software/browser/libpd-engine/source/allp4~.pd",
+      "bytes": 781,
+      "sha256": "f7f6aa15be6730a89462e3bda2d0f01d1f01e82a73739736a33f621552f18bf5"
+    },
+    {
+      "path": "software/browser/libpd-engine/source/allp~.pd",
+      "bytes": 739,
+      "sha256": "23c8a0f82ca32c21166f9f9b0278efc54ee94dcbd09d71b22d5eb032fea2ea67"
+    },
+    {
+      "path": "software/browser/libpd-engine/source/bongo~.pd",
+      "bytes": 3314,
+      "sha256": "1d0a97db763fec024864273ba135c108107da7c49bdf5043135b616fd9d2044a"
+    },
+    {
+      "path": "software/browser/libpd-engine/source/chair.dc-offset~.pd",
+      "bytes": 580,
+      "sha256": "b155c929f6f957c6ef28d0a8e85267a0167a3c0a4458418e526d5fc98f00650a"
+    },
+    {
+      "path": "software/browser/libpd-engine/source/chair.distance.pd",
+      "bytes": 1431,
+      "sha256": "6989a6d4b331ca528f4c6921135ac0916dc61f6367e9e623ae7512829405cf59"
+    },
+    {
+      "path": "software/browser/libpd-engine/source/chair.polyphony.pd",
+      "bytes": 876,
+      "sha256": "4ed08a252260270494c364defc092270bbe51fdd05b9eaff65f4de57f8278553"
+    },
+    {
+      "path": "software/browser/libpd-engine/source/chair.touchgate~.pd",
+      "bytes": 1601,
+      "sha256": "263eba33ae1e6ad47222bce121208d70f723324563f7dac071adcc5b73fd24de"
+    },
+    {
+      "path": "software/browser/libpd-engine/source/main.pd",
+      "bytes": 4544,
+      "sha256": "ae7fc6d7b1fc7dcce636fce503e22c41c02339c5862b6f45e9dbca42651a59b7"
+    },
+    {
+      "path": "software/browser/libpd-engine/test-engine.mjs",
+      "bytes": 3374,
+      "sha256": "4e7f7913646970544c792f90a0756083711d09cc54409936ce239769bd184fea"
+    },
+    {
+      "path": "software/browser/materials.js",
+      "bytes": 2010,
+      "sha256": "71cb05a51b766d8009bfcadc27375b355850fa0f9a15afc80a2568dbbc57776e"
+    },
+    {
+      "path": "software/browser/model/messier57-v3.glb",
+      "bytes": 2203712,
+      "sha256": "f7d47ea48676837d87665b08753143a178ad9634992f016cd6dd962371664d94"
+    },
+    {
+      "path": "software/browser/room-reverb.js",
+      "bytes": 1420,
+      "sha256": "53721e85e4d57275c664e62ea9d953f66673759605719ee968508a6369007497"
+    },
+    {
+      "path": "software/browser/scene.js",
+      "bytes": 9308,
+      "sha256": "232b5efd93c6dd54b94d4f7ab890fbf6959dd96f0d1559c5c25e7e06f9485b6b"
+    },
+    {
+      "path": "software/browser/sequencer.js",
+      "bytes": 1028,
+      "sha256": "b66119b7cf111ae6833b4fb86a83c7a8ba257397eb59eb8f466d8d7f4c5af154"
+    },
+    {
+      "path": "software/browser/style.css",
+      "bytes": 24276,
+      "sha256": "53428efd9b76a8016c9e9fbb67153b0bc42f21a55e7e1849f1896f6adc082a71"
+    },
+    {
+      "path": "software/browser/vendor/THREE-LICENSE",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "software/browser/vendor/addons/controls/OrbitControls.js",
+      "bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    {
+      "path": "software/browser/vendor/addons/environments/RoomEnvironment.js",
+      "bytes": 4899,
+      "sha256": "c20f0b4677f6128a138d7152b85cbef9091f4f45cdfa05adca04d40c1697c7ae"
+    },
+    {
+      "path": "software/browser/vendor/addons/loaders/DRACOLoader.js",
+      "bytes": 16781,
+      "sha256": "7a4a51c694a6c9f983be452cc82b365e69ce08424654e3f245b4115e6efef258"
+    },
+    {
+      "path": "software/browser/vendor/addons/loaders/GLTFLoader.js",
+      "bytes": 114739,
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    },
+    {
+      "path": "software/browser/vendor/addons/utils/BufferGeometryUtils.js",
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    {
+      "path": "software/browser/vendor/draco/AUTHORS",
+      "bytes": 318,
+      "sha256": "dcbe60a2875d20fedc2a2a992075b572a2550f69480ac72710eeb3ef09c48034"
+    },
+    {
+      "path": "software/browser/vendor/draco/LICENSE",
+      "bytes": 13899,
+      "sha256": "58738680341b408022157c34c95823fe803794b83b272a4904b7f86dfc4f2a6e"
+    },
+    {
+      "path": "software/browser/vendor/draco/PROVENANCE.md",
+      "bytes": 813,
+      "sha256": "1e2a05917c26704dcb477b71cae250a4c3b9b7a4e8598fa56b2faf4b53f02745"
+    },
+    {
+      "path": "software/browser/vendor/draco/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    {
+      "path": "software/browser/vendor/draco/draco_wasm_wrapper.js",
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    },
+    {
+      "path": "software/browser/vendor/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "path": "software/browser/vendor/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "software/grooves.json",
+      "bytes": 26322,
+      "sha256": "e2044f2d2de030e556943d9582c0b8683b289ba0aa19f895c53130072f8eb7cc"
+    },
+    {
+      "path": "software/pure-data/LICENSE-CHAIR.txt",
+      "bytes": 1068,
+      "sha256": "811c42eed1ae46b98313c474d86edf9dd79532196c21beeaef10633c1a8331b2"
+    },
+    {
+      "path": "software/pure-data/NATIVE-VALIDATION.json",
+      "bytes": 175,
+      "sha256": "242af8c60d297f7b4ced487d12a99898f498ef4d9543a9d224c52961a0ad0356"
+    },
+    {
+      "path": "software/pure-data/README.txt",
+      "bytes": 2660,
+      "sha256": "f4649de77835d70ab7d33c6c7840c90ea5f286600a43e34b800fac1fd48313fc"
+    },
+    {
+      "path": "software/pure-data/SCORE-VALIDATION.json",
+      "bytes": 742,
+      "sha256": "37e894d8049992a16d3a8f3319346f41c35b18977c1e04070a8432c2185b9b9f"
+    },
+    {
+      "path": "software/pure-data/allp-d~.pd",
+      "bytes": 828,
+      "sha256": "335c92fdc508b4991d9b0d2b28b14d7e9421e9b2c577a3c691682099c47fd420"
+    },
+    {
+      "path": "software/pure-data/allp4~.pd",
+      "bytes": 781,
+      "sha256": "f7f6aa15be6730a89462e3bda2d0f01d1f01e82a73739736a33f621552f18bf5"
+    },
+    {
+      "path": "software/pure-data/allp~.pd",
+      "bytes": 739,
+      "sha256": "23c8a0f82ca32c21166f9f9b0278efc54ee94dcbd09d71b22d5eb032fea2ea67"
+    },
+    {
+      "path": "software/pure-data/bongo~.pd",
+      "bytes": 3314,
+      "sha256": "1d0a97db763fec024864273ba135c108107da7c49bdf5043135b616fd9d2044a"
+    },
+    {
+      "path": "software/pure-data/chair.chrismoore-reverb~.pd",
+      "bytes": 10682,
+      "sha256": "8b7d14f581009c5b6f3a897706c2087429d7b4d33dcfb39f0d6967f47c006ec3"
+    },
+    {
+      "path": "software/pure-data/chair.dc-offset~.pd",
+      "bytes": 580,
+      "sha256": "b155c929f6f957c6ef28d0a8e85267a0167a3c0a4458418e526d5fc98f00650a"
+    },
+    {
+      "path": "software/pure-data/chair.distance.pd",
+      "bytes": 1431,
+      "sha256": "6989a6d4b331ca528f4c6921135ac0916dc61f6367e9e623ae7512829405cf59"
+    },
+    {
+      "path": "software/pure-data/chair.polyphony.pd",
+      "bytes": 876,
+      "sha256": "4ed08a252260270494c364defc092270bbe51fdd05b9eaff65f4de57f8278553"
+    },
+    {
+      "path": "software/pure-data/chair.touchgate~.pd",
+      "bytes": 1601,
+      "sha256": "263eba33ae1e6ad47222bce121208d70f723324563f7dac071adcc5b73fd24de"
+    },
+    {
+      "path": "software/pure-data/desktop.pd",
+      "bytes": 4198,
+      "sha256": "6c64111453357083722eb09a1ffc609798cbb7e5d600383afbcd100466e75022"
+    },
+    {
+      "path": "software/pure-data/grooves/afrobeat.txt",
+      "bytes": 1048,
+      "sha256": "6c2ec8e5b46d5230c58df063c7a9c95c3a37372e77071e23bbb56117e815709c"
+    },
+    {
+      "path": "software/pure-data/grooves/baile.txt",
+      "bytes": 983,
+      "sha256": "fb095764f90983c9bbc7a44933ae79001d77240a1bcda3dd206c614218168488"
+    },
+    {
+      "path": "software/pure-data/grooves/broken.txt",
+      "bytes": 870,
+      "sha256": "1a734fd2707110961dd82199b3ed2d9fbf86df75d1fad722b20ebffc64f7b5ec"
+    },
+    {
+      "path": "software/pure-data/grooves/dembow.txt",
+      "bytes": 723,
+      "sha256": "c582b3f49de7ab55a91301feb32e75f9070c4cb3dbe2b5ffbf22243c6d77c8a1"
+    },
+    {
+      "path": "software/pure-data/grooves/garage.txt",
+      "bytes": 836,
+      "sha256": "cc3ffe882284dac82d992fc326842b3c3fda344e404173fd0f2cf36b65da8589"
+    },
+    {
+      "path": "software/pure-data/grooves/ijexa.txt",
+      "bytes": 993,
+      "sha256": "737f308913f2d08a8e08b1e7ff71f8de11943338b139f78f1937962b9ead658f"
+    },
+    {
+      "path": "software/pure-data/grooves/maracatu.txt",
+      "bytes": 868,
+      "sha256": "b3c04b6c7fe32e020f54937f9ebbb8492f9d899ffc1cbd84daf5563995b88fd8"
+    },
+    {
+      "path": "software/pure-data/grooves/partido.txt",
+      "bytes": 892,
+      "sha256": "6bbdf32477a4f0007eac18f3a9e24587da5abc1123a3d9553758505ebb28ba1f"
+    },
+    {
+      "path": "software/pure-data/grooves/secondline.txt",
+      "bytes": 1040,
+      "sha256": "039f3ae81b1decab4311f02870a3edae15c9ddcee4f5e99934d63e8566f0eae0"
+    },
+    {
+      "path": "software/pure-data/grooves/tamborzao.txt",
+      "bytes": 823,
+      "sha256": "979da8fa06d1b38b32788fd0dfea4803b3a6542c4e7f6084ced5dfc41566997f"
+    },
+    {
+      "path": "software/pure-data/grooves.json",
+      "bytes": 29413,
+      "sha256": "78176497bbbe084f62b3ef1eecf20dc55f1bc92dc43e343c9ca528d944863a18"
+    },
+    {
+      "path": "software/pure-data/grooves.pd",
+      "bytes": 1886,
+      "sha256": "e0b361432fbd158ac565ab9c2c93bdb475bb3681f877861a7e04948b69f4c1e9"
+    },
+    {
+      "path": "software/pure-data/head-excitation.wav",
+      "bytes": 13274,
+      "sha256": "60f4c51efa7b048200010b63f3fc7edd1ff2bc567b103cb69ae16d583276392a"
+    },
+    {
+      "path": "software/pure-data/instrument.pd",
+      "bytes": 4520,
+      "sha256": "0c43b1984aefdf1241a175c8e424714f273bbf2b2c04ad151dc378b1190a7871"
+    },
+    {
+      "path": "software/pure-data/kick-excitation.wav",
+      "bytes": 16802,
+      "sha256": "4d4923ef06693d400fc9cc825854b5b1d3da0d4603d49c28faf5ae59a539db60"
+    },
+    {
+      "path": "software/pure-data/original-project/A06.percussion-snare.pd",
+      "bytes": 20672,
+      "sha256": "fa69791f85cea42728a42672bffa1cd54181d37b9a8ca183288154c88d1258b9"
+    },
+    {
+      "path": "software/pure-data/original-project/A09.2D-waveguide-allpass.pd",
+      "bytes": 5426,
+      "sha256": "71dace394ebecc7feec5a1107fd7b38412966949a60876e6d75b91232b1f2119"
+    },
+    {
+      "path": "software/pure-data/original-project/ADC1_mesh_20.txt",
+      "bytes": 1482,
+      "sha256": "5d97b3cc3146ce568535398e693294013be820c224933aeb397afe1c1c50ef4f"
+    },
+    {
+      "path": "software/pure-data/original-project/ADC2_LAV_50.txt",
+      "bytes": 3588,
+      "sha256": "40657da571fd9ad5f16ee2712a43a0fc699339c5a38d28a2334248ffb7fe2051"
+    },
+    {
+      "path": "software/pure-data/original-project/ADC2_mesh_20.txt",
+      "bytes": 1560,
+      "sha256": "661318b05508119db9b452c36f0838f29d1ee09cb507d4bd544a5c3fdc726e38"
+    },
+    {
+      "path": "software/pure-data/original-project/Bonk Learn/2 min training data/ADC1_mesh_20.txt",
+      "bytes": 1482,
+      "sha256": "5d97b3cc3146ce568535398e693294013be820c224933aeb397afe1c1c50ef4f"
+    },
+    {
+      "path": "software/pure-data/original-project/Bonk Learn/2 min training data/ADC2_mesh_20.txt",
+      "bytes": 1560,
+      "sha256": "661318b05508119db9b452c36f0838f29d1ee09cb507d4bd544a5c3fdc726e38"
+    },
+    {
+      "path": "software/pure-data/original-project/Bonk Learn/2 min training data/Bonk_Learn_2mins.pd",
+      "bytes": 2917,
+      "sha256": "d77b71a6f18241a1f79ee6e460fa1d0970db0f8ccb5571da7098ebadb744d7a0"
+    },
+    {
+      "path": "software/pure-data/original-project/Bonk Learn/ADC1.txt",
+      "bytes": 624,
+      "sha256": "07ad36ce327a58e6a4a14fbd8e28a3a5174e7326e8b130d09431bf87081ae375"
+    },
+    {
+      "path": "software/pure-data/original-project/Bonk Learn/ADC2.txt",
+      "bytes": 780,
+      "sha256": "fc476027da9b35ab9d84d99336400d82cd82fb0c14a93994ea355f48a1a06d28"
+    },
+    {
+      "path": "software/pure-data/original-project/Bonk Learn/ADC2_LAV_50.txt",
+      "bytes": 3588,
+      "sha256": "40657da571fd9ad5f16ee2712a43a0fc699339c5a38d28a2334248ffb7fe2051"
+    },
+    {
+      "path": "software/pure-data/original-project/Bonk Learn/ADC2_mesh_25.txt",
+      "bytes": 1404,
+      "sha256": "2b3ca83927d485e36e4473bec92d00eb9372effb7e6e1141cd00fd1458ba01ac"
+    },
+    {
+      "path": "software/pure-data/original-project/Bonk Learn/ADC2_mesh_50.txt",
+      "bytes": 702,
+      "sha256": "a07cba536a0a01ad90a9aa57434125a1e000b84da309e25c193e7a08514f2930"
+    },
+    {
+      "path": "software/pure-data/original-project/Bonk Learn/ADC2_side.txt",
+      "bytes": 624,
+      "sha256": "dd8f409af456355c45226a0d45824218d602dcde79ab67eef220ded53c0e5c79"
+    },
+    {
+      "path": "software/pure-data/original-project/Bonk Learn/bonk_tutorial_2_learn.pd",
+      "bytes": 7626,
+      "sha256": "2799675cec59c1b23d5135242eab890d8404da27bdfa3ab7c2a625c0e81356ac"
+    },
+    {
+      "path": "software/pure-data/original-project/New Folder With Items/2D-waveguide-allpass.pd",
+      "bytes": 2629,
+      "sha256": "0488b03fea611886ffa85133e19e18403fbd5f9ab6b10127e647bce977e371bf"
+    },
+    {
+      "path": "software/pure-data/original-project/Record audio/_main.pd",
+      "bytes": 5028,
+      "sha256": "611b99dc9439865b57ea9aaec764853cadced0993a9dd72c8464dc9deed5ddb4"
+    },
+    {
+      "path": "software/pure-data/original-project/_main.pd",
+      "bytes": 27353,
+      "sha256": "b59b138ee81fca162e1d15855c92dc7bf254a9128c7022e004683a9f587a22ea"
+    },
+    {
+      "path": "software/pure-data/original-project/allp4~.pd",
+      "bytes": 781,
+      "sha256": "f7f6aa15be6730a89462e3bda2d0f01d1f01e82a73739736a33f621552f18bf5"
+    },
+    {
+      "path": "software/pure-data/original-project/allp~.pd",
+      "bytes": 739,
+      "sha256": "23c8a0f82ca32c21166f9f9b0278efc54ee94dcbd09d71b22d5eb032fea2ea67"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.chrismoore-reverb~-help.pd",
+      "bytes": 1476,
+      "sha256": "8df7ebe0c6c6b74d4d13093aeda92efd87175a2f963cbafcaa7a9677062d7bb2"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.chrismoore-reverb~.pd",
+      "bytes": 10682,
+      "sha256": "8b7d14f581009c5b6f3a897706c2087429d7b4d33dcfb39f0d6967f47c006ec3"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.dc-offset~-help.pd",
+      "bytes": 2433,
+      "sha256": "3541a6c9b3e1e7df0b6974e3a295753185530cd065dd2f0fbc3b1191dc203794"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.dc-offset~.pd",
+      "bytes": 580,
+      "sha256": "b155c929f6f957c6ef28d0a8e85267a0167a3c0a4458418e526d5fc98f00650a"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.dynamics~.pd",
+      "bytes": 18211,
+      "sha256": "99c8972c04d511a39437ae0cc6072fc2111dc730f2bea6e90f4e903bd7da48ad"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.encoders-help.pd",
+      "bytes": 701,
+      "sha256": "b343536853692b1540cbbc87041b5ee42f93724fbf29e02c171029df8028a1a9"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.encoders.pd",
+      "bytes": 3441,
+      "sha256": "e5e48e08831b9fb482c2b3048fe0bb3922a3c1398de336e02a717ffd9f8f5ee9"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.feedback-cancellation~-help.pd",
+      "bytes": 1201,
+      "sha256": "9f79d0b13162939576c3c30dda9f0b27da1b861a12a58f3ae97cb89dd24c2bf5"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.feedback-cancellation~.pd",
+      "bytes": 1992,
+      "sha256": "cf3adafb0e4f3f2a12a77b8b84a4cd34f840af3246c2266e7ae6de85f7762ff8"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.gain~-help.pd",
+      "bytes": 997,
+      "sha256": "46a658854692091f6bd5972cdaabff5d1d17b8b36855fec82cf066399ca49409"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.gain~.pd",
+      "bytes": 1988,
+      "sha256": "6c36776392e2114dc777ed2493e96a287627c2b2ff8f5aedd6fe6fcb30448da6"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.touchgate~-help.pd",
+      "bytes": 801,
+      "sha256": "1cc15b9269c244d54d2af5c89688427a5e94832704f5455229ac0a368ede6a8b"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.touchgate~.pd",
+      "bytes": 1601,
+      "sha256": "263eba33ae1e6ad47222bce121208d70f723324563f7dac071adcc5b73fd24de"
+    },
+    {
+      "path": "software/pure-data/original-project/chorus4896~.pd",
+      "bytes": 2451,
+      "sha256": "41a18b6bbdaa9bfb2de79a7b58a1033bb86f23a6373ab339c5aebcb4d47bae44"
+    },
+    {
+      "path": "software/pure-data/original-project/delay-snare~.pd",
+      "bytes": 1790,
+      "sha256": "b3475799ef7789fb391db576251908f32b9e8a9c2b8f92a57f5bd371aa7a904e"
+    },
+    {
+      "path": "software/pure-data/original-project/delay4896~.pd",
+      "bytes": 1385,
+      "sha256": "b3f87c7e3c725df8937a1fc9748090c9af41d528520b41ff46a0a62bbbe0ee36"
+    },
+    {
+      "path": "software/pure-data/original-project/flanger4896~.pd",
+      "bytes": 2032,
+      "sha256": "0ff36ed9d0e5954fd9351eb843e2498cde0a7ec182166f9e9abb711dcceb7bed"
+    },
+    {
+      "path": "software/pure-data/original-project/pitchshifter~.pd",
+      "bytes": 2122,
+      "sha256": "df2092f742eb548b09ab7df80bff0875a6c216e848afe1f5099599384fcda27c"
+    },
+    {
+      "path": "software/pure-data/original-project/snare~.pd",
+      "bytes": 43167,
+      "sha256": "1570b8d33acb170e2ef1fb7a699da17170ec72b379cf8a4f7c52cdb70259b56e"
+    },
+    {
+      "path": "software/pure-data/original-project/waveguide~.pd",
+      "bytes": 2704,
+      "sha256": "bb8dbc284a81b2fdd7494398cffb51fd130d6dbc8c3bb0de52ec705751e73c22"
+    },
+    {
+      "path": "software/pure-data/rim-excitation.wav",
+      "bytes": 13274,
+      "sha256": "081b50c2a897613605b9e09941f1d64cace10e7270d616bfcbe1b6b1f5c08a68"
+    },
+    {
+      "path": "third_party/CHAIR/LICENSE",
+      "bytes": 1068,
+      "sha256": "811c42eed1ae46b98313c474d86edf9dd79532196c21beeaef10633c1a8331b2"
+    },
+    {
+      "path": "third_party/CHAIR/PROVENANCE.md",
+      "bytes": 3194,
+      "sha256": "d7fadcd7abaf3a4275a90e6e18fa5a5c9ae30227f5a3fe6fcf6bc3075a6c8475"
+    },
+    {
+      "path": "third_party/CHAIR/file-correspondence.json",
+      "bytes": 7570,
+      "sha256": "4cdb1b480a3bcf04f9b2cb71caf65135ba2dbe4eb772c8217b53b80914ae295e"
+    },
+    {
+      "path": "visualisation/README.md",
+      "bytes": 449,
+      "sha256": "fd1fb995c92b59072a1ff8ef770bec5dae7610e89530cff4708049529c896ffb"
+    },
+    {
+      "path": "visualisation/V3-ASSEMBLY.json",
+      "bytes": 516,
+      "sha256": "be7378f3c126c3815742999b862885ff00e2e7cc93c761c1ec7034b8f285eb7f"
+    },
+    {
+      "path": "visualisation/messier57-v3.blend",
+      "bytes": 15565076,
+      "sha256": "c92e1d7f3db0c0148d9f2cfccd1670650b7faea0c13d606f36926f58797ab061"
+    },
+    {
+      "path": "visualisation/messier57-v3.glb",
+      "bytes": 2203712,
+      "sha256": "f7d47ea48676837d87665b08753143a178ad9634992f016cd6dd962371664d94"
+    }
+  ]
+}

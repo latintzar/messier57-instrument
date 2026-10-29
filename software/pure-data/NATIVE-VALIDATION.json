@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "method": "Native Pd 0.55-0, batch/noaudio, load desktop + grooves and issue head/kick events. No missing-object or connection errors.",
+  "output": ""
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "InstrumentSerif-Regular.ttf",
+    "upstream": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf",
+    "bytes": 70012,
+    "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88"
+  },
+  {
+    "file": "InstrumentSerif-Italic.ttf",
+    "upstream": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Italic.ttf",
+    "bytes": 71592,
+    "sha256": "08939b8bdf534afec24ae0ef5e03f948940cd9a8fe08e7fecbad040e62327385"
+  },
+  {
+    "file": "DMSans[opsz,wght].ttf",
+    "upstream": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf",
+    "bytes": 240164,
+    "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+  },
+  {
+    "file": "instrumentserif-OFL.txt",
+    "upstream": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/OFL.txt",
+    "bytes": 4405,
+    "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+  },
+  {
+    "file": "dmsans-OFL.txt",
+    "upstream": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/OFL.txt",
+    "bytes": 4482,
+    "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+  }
+]

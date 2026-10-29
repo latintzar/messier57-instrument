@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "grooves_with_kick": 10,
+  "editable_hit_toggle": true,
+  "independent_step_loosening": true,
+  "original_presets_preserved": true,
+  "finite_stereo_room_ir": true,
+  "shared_dry_wet_output_paths": true
+}

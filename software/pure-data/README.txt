@@ -1,0 +1,13 @@
+MESSIER ’57 — PURE DATA EDITION
+
+Open desktop.pd in Pure Data Vanilla, then grooves.pd for the ten matching groove studies. DSP starts on load. Start with low output volume. H=head, R=rim, K=kick; hold S to loosen snares. The sensing selector chooses which sample excites the ONE snare. The kick is a separate low-tuned CHAIR bongo~ resonator. It was added to the browser demo in 2026; it is not presented as part of Peter’s original drum hardware.
+
+Head/rim WAVs are excitation recordings, not final drum output samples. The kick WAV is a short noise excitation. The actual snare and kick sound is synthesized in the included Pd models. Saved baseline: .6 tuning / .8 rattle / .6 damping. The virtual latch maps rattle .8 to 0 while pulled; original physical endpoints were not verified. The browser and Pd scores preserve timing, velocity and latch/sensing events; native keyboard repeats depend on Pd/OS.
+
+instrument.pd contains the unchanged recovered CHAIR snare subpatch and unchanged CHAIR bongo~/helpers, with a native output wrapper. adc~1 is an optional live snare exciter. Input 2 is deliberately silent in this desktop demonstration, so a rim microphone is not accidentally treated as a kick. This demo does not implement Bonk classification. Original recovered project .pd files, including Bonk work, are in original-project/ as archival source; Bonk training-template text files are included, but their large audio recordings and hardware-specific dependencies are not bundled. They are not a ready-to-flash Bela firmware release.
+
+The two-microphone hardware architecture is documented in ../../hardware/. Use the recovered hardware patch as the reference for live sensing rather than inferring it from the desktop audition wrapper. CHAIR upstream: https://github.com/chairaudio/CHAIR-Pd-library . bongo~ upstream blob cad41f2b8c771e33f2c88b36e1d6463569a4e198. Keep original author notices. Licensing provenance is retained; this package does not assign a new blanket licence to upstream or recovered design material.
+
+Current sound update: kick exciter is a damped low-frequency beater/body waveform, driving the unchanged CHAIR bongo~ at parameters .02/.94/.08. The native output includes CHAIR/Tom Erbe Chris Moore reverb. The browser uses a shared short stereo convolution room for all voices. All ten groove scores now include kick. Browser take recording has been replaced by the visible editable sequencer.
+
+CHAIR source notice: LICENSE-CHAIR.txt is the pinned official tickle-examples MIT licence. Exact matches and later derivative changes are recorded in ../../third_party/CHAIR/PROVENANCE.md. Preserve all model/helper credits.

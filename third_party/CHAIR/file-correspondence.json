@@ -1,0 +1,197 @@
+{
+  "source_repository": "https://github.com/chairaudio/tickle-examples",
+  "source_commit": "8465d66edae545b451b18402ac9a41211c5af14a",
+  "license_git_blob": "708dbae874176c33e4780f26084c30e525a964cf",
+  "license_sha256": "811c42eed1ae46b98313c474d86edf9dd79532196c21beeaef10633c1a8331b2",
+  "native_pd_files_compared": 41,
+  "exact_mit_matches": [
+    {
+      "path": "software/pure-data/allp-d~.pd",
+      "git_blob": "5dd922ec3c39d5dbd1a035c068dce270e4c29f02",
+      "upstream_path": "Pd/examples/abstractions/allp-d~.pd"
+    },
+    {
+      "path": "software/pure-data/allp4~.pd",
+      "git_blob": "badd7c8d2d8f767e9e8e414f0c6378b675b35948",
+      "upstream_path": "Pd/examples/abstractions/allp4~.pd"
+    },
+    {
+      "path": "software/pure-data/allp~.pd",
+      "git_blob": "9bace62765fe65a64f734845f1e4900837e1554f",
+      "upstream_path": "Pd/examples/abstractions/allp~.pd"
+    },
+    {
+      "path": "software/pure-data/chair.chrismoore-reverb~.pd",
+      "git_blob": "034c7c85523317122e812c39c2890261c5ebdf47",
+      "upstream_path": "Pd/chair.chrismoore-reverb~.pd"
+    },
+    {
+      "path": "software/pure-data/chair.dc-offset~.pd",
+      "git_blob": "72be861600fa5f414e3d969d1e5ec98b7f5f1cbc",
+      "upstream_path": "Pd/chair.dc-offset~.pd"
+    },
+    {
+      "path": "software/pure-data/chair.touchgate~.pd",
+      "git_blob": "80629f5e3363399074cd98275b3db9778542a457",
+      "upstream_path": "Pd/chair.touchgate~.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/allp4~.pd",
+      "git_blob": "badd7c8d2d8f767e9e8e414f0c6378b675b35948",
+      "upstream_path": "Pd/examples/abstractions/allp4~.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/allp~.pd",
+      "git_blob": "9bace62765fe65a64f734845f1e4900837e1554f",
+      "upstream_path": "Pd/examples/abstractions/allp~.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.chrismoore-reverb~-help.pd",
+      "git_blob": "1bbbb2889cbc16955fb7e0765520dcd7b21fdc68",
+      "upstream_path": "Pd/chair.chrismoore-reverb~-help.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.chrismoore-reverb~.pd",
+      "git_blob": "034c7c85523317122e812c39c2890261c5ebdf47",
+      "upstream_path": "Pd/chair.chrismoore-reverb~.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.dc-offset~-help.pd",
+      "git_blob": "9216d734d1868747488ca9011ee9eb5216811ca5",
+      "upstream_path": "Pd/chair.dc-offset~-help.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.dc-offset~.pd",
+      "git_blob": "72be861600fa5f414e3d969d1e5ec98b7f5f1cbc",
+      "upstream_path": "Pd/chair.dc-offset~.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.dynamics~.pd",
+      "git_blob": "3da57e743ba4c8f6a42d302d2a3e0cf8ca1adff5",
+      "upstream_path": "Pd/chair.dynamics~.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.encoders-help.pd",
+      "git_blob": "aac822f44450192f9a895b1c3fbd9de9bcd81f83",
+      "upstream_path": "Pd/chair.encoders-help.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.encoders.pd",
+      "git_blob": "5c358eb5ab1ba20c762003d7362b06f1fffde36c",
+      "upstream_path": "Pd/chair.encoders.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.feedback-cancellation~-help.pd",
+      "git_blob": "a41ce3d589d5db63232b31d5f03f1d85679b38a5",
+      "upstream_path": "Pd/chair.feedback-cancellation~-help.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.feedback-cancellation~.pd",
+      "git_blob": "b1b964b9ad751dc7cc9bedf6503bcd267ba4b221",
+      "upstream_path": "Pd/chair.feedback-cancellation~.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.gain~-help.pd",
+      "git_blob": "015c711bdef87368f6ad23c31b49195d4a64e829",
+      "upstream_path": "Pd/chair.gain~-help.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.gain~.pd",
+      "git_blob": "09f5a957fcbad38b454690133692624901e688d3",
+      "upstream_path": "Pd/chair.gain~.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.touchgate~-help.pd",
+      "git_blob": "e025ce59dd5054d32dd1ef953fb0ccfdbca5b36f",
+      "upstream_path": "Pd/chair.touchgate~-help.pd"
+    },
+    {
+      "path": "software/pure-data/original-project/chair.touchgate~.pd",
+      "git_blob": "80629f5e3363399074cd98275b3db9778542a457",
+      "upstream_path": "Pd/chair.touchgate~.pd"
+    }
+  ],
+  "unmatched_by_exact_blob": [
+    {
+      "path": "software/pure-data/bongo~.pd",
+      "git_blob": "cad41f2b8c771e33f2c88b36e1d6463569a4e198"
+    },
+    {
+      "path": "software/pure-data/chair.distance.pd",
+      "git_blob": "aa475c59ffca67982911931b16579b99e565af14"
+    },
+    {
+      "path": "software/pure-data/chair.polyphony.pd",
+      "git_blob": "fe6d9c4f136f1f344059e818cc0a4a0314016c1d"
+    },
+    {
+      "path": "software/pure-data/desktop.pd",
+      "git_blob": "eb484ba85635766cc83d01fd51c7f2c308574f8e"
+    },
+    {
+      "path": "software/pure-data/grooves.pd",
+      "git_blob": "edcc3bc5e7c661dc700ba2c292d70c4095d7ae00"
+    },
+    {
+      "path": "software/pure-data/instrument.pd",
+      "git_blob": "00592e5f74f3c979cae2584a3c401364e0080f05"
+    },
+    {
+      "path": "software/pure-data/original-project/A06.percussion-snare.pd",
+      "git_blob": "61cafefe63365fba190844776942fbc740b6952c"
+    },
+    {
+      "path": "software/pure-data/original-project/A09.2D-waveguide-allpass.pd",
+      "git_blob": "4cd8c590a70cfbfe92973caf801f9f00f62b1ef1"
+    },
+    {
+      "path": "software/pure-data/original-project/Bonk Learn/2 min training data/Bonk_Learn_2mins.pd",
+      "git_blob": "5fc52750dd9880f5d2bd102e2f5c07646ce8215f"
+    },
+    {
+      "path": "software/pure-data/original-project/Bonk Learn/bonk_tutorial_2_learn.pd",
+      "git_blob": "7bfd78da7944afb85bc2baaa02e8f82ea534d547"
+    },
+    {
+      "path": "software/pure-data/original-project/New Folder With Items/2D-waveguide-allpass.pd",
+      "git_blob": "7d6f06b5923d8b685658b494f6a3a8fa73c2d2a6"
+    },
+    {
+      "path": "software/pure-data/original-project/Record audio/_main.pd",
+      "git_blob": "92b4c1b6778b16b3ac83d3aa3c47b1c440492f96"
+    },
+    {
+      "path": "software/pure-data/original-project/_main.pd",
+      "git_blob": "faeca9f487f64f0e952a4ba17b0a85f1d0dc68c4"
+    },
+    {
+      "path": "software/pure-data/original-project/chorus4896~.pd",
+      "git_blob": "55c0719a83317e7fb704fc930ad0ca94ef1b5426"
+    },
+    {
+      "path": "software/pure-data/original-project/delay-snare~.pd",
+      "git_blob": "e9bccbbaab10f6f81e4041e1c1e21bd1720fa622"
+    },
+    {
+      "path": "software/pure-data/original-project/delay4896~.pd",
+      "git_blob": "859cd87120c12c7d9d6568913d964ee688c78e30"
+    },
+    {
+      "path": "software/pure-data/original-project/flanger4896~.pd",
+      "git_blob": "fea393e58995c53e29d922fddc6c3448c3f2ed37"
+    },
+    {
+      "path": "software/pure-data/original-project/pitchshifter~.pd",
+      "git_blob": "ee6e6a15d123752aa6c7c34ee97876d0a939a78e"
+    },
+    {
+      "path": "software/pure-data/original-project/snare~.pd",
+      "git_blob": "b8966cba23daf74074575ac18ca53b0bdb5a111e"
+    },
+    {
+      "path": "software/pure-data/original-project/waveguide~.pd",
+      "git_blob": "f9a88c37f85c84a8161039788085429aa3bbbf72"
+    }
+  ],
+  "interpretation": "Exact blob matches establish direct MIT correspondence. Unmatched files include original wrappers and derivatives; this is not a finding that those files are unlicensed."
+}

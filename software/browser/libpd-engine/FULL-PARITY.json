@@ -1,0 +1,9 @@
+{
+  "test": "full unchanged snare with native default noise; zero startup preroll",
+  "samples_compared": 97020,
+  "max_absolute_error": 1.3018071513215546e-05,
+  "rms_error": 1.1222290747876267e-07,
+  "correlation": 0.9999999909084447,
+  "native_peak": 0.24964405596256256,
+  "wasm_peak": 0.24964405596256256
+}

@@ -1,0 +1,15 @@
+{
+  "package": "libpd-wasm",
+  "version": "0.1.6",
+  "repository": "https://github.com/hyrfilm/libpd-wasm",
+  "upstream_worklet_sha256": "f5f7508751125344fb8436664c696eddf886812335a62cbea016ac6771872507",
+  "patched_worklet_sha256": "41f9ad430fd17e9977cc65e7c4ffe6370bf5f5f19f6abef64043d74981fd7a87",
+  "adapter_changes": [
+    "IN_CH changed 0 to 2",
+    "Copy two AudioWorklet input channels into interleaved libpd input memory; channel 1 snare, channel 2 low-tuned CHAIR bongo resonator"
+  ],
+  "wasm_binary_modified": false,
+  "pd_block_size": 64,
+  "worklet_quantum": 128,
+  "original_snare_text_unchanged": true
+}

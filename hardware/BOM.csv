@@ -1,0 +1,27 @@
+id,part,quantity,evidence,part_number_or_status,notes
+M01,Sapele shell,1,Recovered CAD + photographs,Custom,Source shell envelope approx. 252 mm OD × 83 mm depth; confirm bearing edges and head fit
+M02,Drum head,1,Photographs,Model/diameter not verified,A conventional playable head; mesh versions also appear in development
+M03,Chrome hoop,1,CAD + photographs,Not verified,Six tension positions at 60 degree intervals
+M04,Lug assemblies,6,CAD + photographs,Not verified,Confirm thread and mounting centres against native CAD
+M05,Tension rods,6,CAD,Not verified,Match the selected lugs and hoop
+M06,Brass fork latch,1,Final photographs; reconstructed presentation mesh,Custom,Thin sculpted fork; exact contour/thickness needs measurement
+M07,Latch shaft,1,Final internal photograph; reconstructed presentation mesh,Custom,Joins fork through shell to return mechanism; model geometry is illustrative
+M08,Shaft bearing / guide,1,Final internal photograph,Custom,Brass guide; bore and clearance not verified
+M09,Short extension return spring,1,Final internal photograph,Not verified,"Return force, rate, free length and travel must be measured"
+M10,Spring anchor post and cap,1 set,Final internal photograph,Custom brass,Works with shaft cross screw; dimensions not verified
+M11,Shaft cross screw and fasteners,1 set,Final internal photograph,Not verified,Retains moving spring end; confirm thread
+M12,PLUG IN plaque,1,Final exterior photographs,Custom,Waisted plaque covers jack mounting plate
+M13,Audio jack and four-hole mounting plate,1 set,User identification + photos/CAD,Connector specification not verified,"Check stereo/mono, pinout and mounting pattern"
+M14,Three-position sensing selector and plaque,1 set,User account + final photographs,Switch wiring not verified,Small dot=head; ring=rim; large dot=both feeding one synth
+E01,Bela Mini,1,User account + project sources,Bela Mini,Original notes report CPU limitations for the complete model
+E02,Lavalier microphone,1,User account + final internal photographs,Model and power requirements not verified,Centrally mounted beneath the head
+E03,Contact microphone,1,User account + final internal photographs,Model not verified,Edge/body pickup used to distinguish the rim
+E04,Bela battery power assembly,1,User account,Cell chemistry/voltage/capacity not verified,Battery powers Bela; regulator/protection/charger specification needs recovery
+E05,Power switch,1,Final photographs + user identification,Not verified,Match actual power circuit rather than inferring pinout from render
+E06,Charging connector / board,1 set,User identification,Not verified,Exact connector and charger details are not established
+E07,Audio interface / conditioning electronics,1 set,Photographs + recovered patch I/O,Not verified,Determine mic bias/preamp/gain before wiring; rendered board is a layout placeholder
+E08,Short screened audio leads / power leads,As required,Proposed tidy finish,Lengths and wire specification to be measured,Route clear of head and moving latch
+P01,Clear electronics covers + standoffs,2 sets,Proposed finish only,Not original verified BOM,Protect boards while allowing inspection; allow service access
+P02,Closed wooden base,1,Proposed presentation assembly,4 mm in model; not a verified original fabrication dimension,Do not cut from the render without checking the actual acoustic design
+P03,Microphone support / mount,1 set,Final photographs + proposed tidy finish,Custom,Position central lav without coupling unwanted vibrations
+P04,Tripod snare stand,1,Presentation addition,Generic off-the-shelf compatible stand,"Model includes basket, rubber cradles, height collars and double braces; not product CAD"

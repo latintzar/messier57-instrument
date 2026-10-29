@@ -1,0 +1,43 @@
+{
+  "name": "libpd-wasm",
+  "version": "0.1.6",
+  "description": "Run Pure Data patches in browser AudioWorklets with libpd/WebAssembly.",
+  "type": "module",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/hyrfilm/libpd-wasm#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyrfilm/libpd-wasm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hyrfilm/libpd-wasm/issues"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./assets/*": "./assets/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "assets"
+  ],
+  "scripts": {
+    "build": "npm run build:manifest && npm run build:melange && npm run build:ts && npm run build:assets",
+    "build:assets": "node scripts/copy-assets.mjs",
+    "build:manifest": "node scripts/sync-manifest.mjs --allow-missing",
+    "build:manifest:strict": "node scripts/sync-manifest.mjs",
+    "build:melange": "node scripts/build-melange.mjs",
+    "build:ts": "node scripts/clean-dist.mjs && tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "melange": "^6.0.1",
+    "melange.js": "^6.0.1"
+  },
+  "devDependencies": {}
+}
