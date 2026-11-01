@@ -1,5 +1,6 @@
 {
   "self_excluded": true,
+  "release": "v0.1.0-source-beta",
   "files": [
     {
       "path": ".gitignore",
@@ -12,19 +13,19 @@
       "sha256": "d4e7c7d06c35f28875ae5ef86e7ec14ae9860c002521879b145481050bdf413c"
     },
     {
-      "path": "PRIVATE-REVIEW.md",
-      "bytes": 1847,
-      "sha256": "80fe0f17240d61c196977ad086f0c00ada83aa816b79e31f15e9ff887b36aa30"
+      "path": "README.md",
+      "bytes": 5646,
+      "sha256": "ab4d82dba8f295ab224aafee6e90cda7a643209a2fe13eaf89089d72182fab3f"
     },
     {
-      "path": "README.md",
-      "bytes": 5329,
-      "sha256": "122c67d714e1c82e321fbc214cc07e738cae63950589c46a791da4afe3d580d7"
+      "path": "RELEASE-STATUS.md",
+      "bytes": 1172,
+      "sha256": "17cd133c5a5ed143b1b68b40b61065b6a0a82ee1c5b682889f9c3e5f5a5ff8f5"
     },
     {
       "path": "THIRD-PARTY.md",
-      "bytes": 2430,
-      "sha256": "d754dea79788daf0c702eb01b57a32deee716643b769164a32eecc35c18cc5fe"
+      "bytes": 2648,
+      "sha256": "c355a15455e90abc12948b01dc6e982ef8f10e811dde3e35df8461ff368e8038"
     },
     {
       "path": "docs/architecture.md",
@@ -58,8 +59,8 @@
     },
     {
       "path": "provenance/RECOVERY.md",
-      "bytes": 2502,
-      "sha256": "6e26e04d13df2190489c2d4bda19ae121d27245f8d8b10fc7f8529a2fe5df6fb"
+      "bytes": 2499,
+      "sha256": "b085f858a31519d5add8efc4107d0b3e062663500384964cd725c9391c80b88d"
     },
     {
       "path": "provenance/function-index.json",
@@ -68,8 +69,8 @@
     },
     {
       "path": "skills/messier57-instrument/SKILL.md",
-      "bytes": 3257,
-      "sha256": "f3a0a5ef379570d0978d891704608cdb673952fa3909535feadfb8fdbd1bbcd9"
+      "bytes": 3261,
+      "sha256": "cb8f7aab0599640911b61416c36f7cc21aed0c2f84a60f06b58b50ba29badf4f"
     },
     {
       "path": "software/browser/V4-SEQUENCER-VALIDATION.json",
@@ -467,6 +468,16 @@
       "sha256": "6c64111453357083722eb09a1ffc609798cbb7e5d600383afbcd100466e75022"
     },
     {
+      "path": "software/pure-data/grooves.json",
+      "bytes": 29413,
+      "sha256": "78176497bbbe084f62b3ef1eecf20dc55f1bc92dc43e343c9ca528d944863a18"
+    },
+    {
+      "path": "software/pure-data/grooves.pd",
+      "bytes": 1886,
+      "sha256": "e0b361432fbd158ac565ab9c2c93bdb475bb3681f877861a7e04948b69f4c1e9"
+    },
+    {
       "path": "software/pure-data/grooves/afrobeat.txt",
       "bytes": 1048,
       "sha256": "6c2ec8e5b46d5230c58df063c7a9c95c3a37372e77071e23bbb56117e815709c"
@@ -515,16 +526,6 @@
       "path": "software/pure-data/grooves/tamborzao.txt",
       "bytes": 823,
       "sha256": "979da8fa06d1b38b32788fd0dfea4803b3a6542c4e7f6084ced5dfc41566997f"
-    },
-    {
-      "path": "software/pure-data/grooves.json",
-      "bytes": 29413,
-      "sha256": "78176497bbbe084f62b3ef1eecf20dc55f1bc92dc43e343c9ca528d944863a18"
-    },
-    {
-      "path": "software/pure-data/grooves.pd",
-      "bytes": 1886,
-      "sha256": "e0b361432fbd158ac565ab9c2c93bdb475bb3681f877861a7e04948b69f4c1e9"
     },
     {
       "path": "software/pure-data/head-excitation.wav",

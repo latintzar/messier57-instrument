@@ -5,7 +5,7 @@ description: Run, inspect and modify the Messier57 local browser/Pure Data instr
 
 # Messier ’57 source guide
 
-Use the repository root as the working directory. Read `README.md`, `THIRD-PARTY.md` and `PRIVATE-REVIEW.md` first. This candidate remains private until Peter reviews it.
+Use the repository root as the working directory. Read `README.md`, `THIRD-PARTY.md` and `RELEASE-STATUS.md` first. This is the public source beta of the reviewed instrument.
 
 ## First result
 

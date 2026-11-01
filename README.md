@@ -2,6 +2,8 @@
 
 An acoustic drum whose microphones excite a physically modelled snare. Designed and built by Peter Neyra.
 
+[Open demo](https://atelierneyra.com/hardware/messier-57?play=1) · [Website](https://atelierneyra.com/hardware/messier-57) · [Download source](https://github.com/latintzar/messier57-instrument/releases/download/v0.1.0-source-beta/messier57-source-beta-v0.1.0.zip) · [Source beta](RELEASE-STATUS.md)
+
 ## Play in the browser
 
 Python 3 and a browser with Web Audio and WebGL are enough. From this repository:
@@ -67,6 +69,6 @@ Read [the source navigation skill](skills/messier57-instrument/SKILL.md). It map
 
 Peter Neyra: original instrument design, build, CAD and original software. CHAIR: snare/bongo models and helpers. Tom Erbe: Chris Moore reverb implementation, included through CHAIR. Pure Data: Miller Puckette and contributors. libpd, Three.js and Draco retain their notices.
 
-[LICENSE](LICENSE) covers Peter’s original software and documentation. CHAIR’s verified MIT source notice is included in [third_party/CHAIR/](third_party/CHAIR/PROVENANCE.md), with exact matches and later model derivatives distinguished. [THIRD-PARTY.md](THIRD-PARTY.md) records all dependency terms. Original CAD, BOM, specifications and visualisation are included with Peter’s explicit reuse authorization and preserved authorship metadata. This candidate remains private for [Peter’s review](PRIVATE-REVIEW.md). Portfolio research images and its media collection stay with the portfolio.
+[LICENSE](LICENSE) covers Peter’s original software and documentation. CHAIR’s verified MIT source notice is included in [third_party/CHAIR/](third_party/CHAIR/PROVENANCE.md), with exact matches and later model derivatives distinguished. [THIRD-PARTY.md](THIRD-PARTY.md) records all dependency terms. Original CAD, BOM, specifications and visualisation are included with Peter’s explicit reuse authorization and preserved authorship metadata. The [source beta](RELEASE-STATUS.md) contains the reviewed instrument and design files. Portfolio research images and its media collection stay with the portfolio.
 
 [made by atelier neyra](https://atelierneyra.com)

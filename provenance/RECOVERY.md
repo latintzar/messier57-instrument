@@ -11,9 +11,9 @@ Recovered 2026-10-28 from `Messier57-Atelier-v4.zip`, following its `HANDOFF.md`
 
 The source package includes the full static browser player. Its 24 libpd-engine files matched the portfolio engine byte-for-byte at recovery. The complete `pd snare` body is 3,198 characters and matches the recovered original in both the native and browser wrappers, retaining all three `noise~` objects.
 
-Integration corrections are documentation paths, scoped original-code licensing, third-party notices, private review status and source navigation. The browser now loads the same DM Sans and Instrument Serif fonts locally under OFL notices; its S label is exactly “Hold to loosen.” and its footer uses the requested Atelier anchor. An appended `pagehide` handler releases held/playing voices, mutes output, disconnects the Pd node and closes the owned AudioContext when its frame unloads. The DSP, patches, CAD, models and recordings remain preserved. Numerical evidence in retained JSON files is earlier evidence, separately identified from new integration tests.
+Integration corrections are documentation paths, scoped original-code licensing, third-party notices, release status and source navigation. The browser now loads the same DM Sans and Instrument Serif fonts locally under OFL notices; its S label is exactly “Hold to loosen.” and its footer uses the requested Atelier anchor. An appended `pagehide` handler releases held/playing voices, mutes output, disconnects the Pd node and closes the owned AudioContext when its frame unloads. The DSP, patches, CAD, models and recordings remain preserved. Numerical evidence in retained JSON files is earlier evidence, separately identified from new integration tests.
 
-See [../PRIVATE-REVIEW.md](../PRIVATE-REVIEW.md) for the private review gate and [../THIRD-PARTY.md](../THIRD-PARTY.md) for upstream terms.
+See [../RELEASE-STATUS.md](../RELEASE-STATUS.md) for the source-beta publication and [../THIRD-PARTY.md](../THIRD-PARTY.md) for upstream terms.
 
 
 
