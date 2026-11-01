@@ -21,4 +21,8 @@ See [../RELEASE-STATUS.md](../RELEASE-STATUS.md) for the source-beta publication
 
 The pinned official tickle-examples MIT licence supersedes the earlier blanket CHAIR hold. `third_party/CHAIR/` retains its verbatim notice, 21 exact native-Pd matches and documented model/helper derivatives. Original DSP, CAD, models, recordings and visual assets are preserved byte-for-byte. Peter explicitly authorizes inclusion and reuse of his original design materials with their authorship metadata.
 
+## Standalone Pd packaging update
+
+The v0.1.1 source beta adds licences, credits and setup documentation inside the smaller Pd-only download. Its 72 existing patch, recording, score, hardware and validation members remain byte-identical. The outer source manifest records the repackaged archive.
+
 [made by atelier neyra](https://atelierneyra.com)

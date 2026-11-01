@@ -16,4 +16,6 @@ The recovered snare, including three noise sources, remains unchanged between Pe
 
 Original CAD, BOM, specifications and visualisation are included with Peter’s explicit reuse authorization. Authorship/path metadata and software-vendor contact metadata remain preserved with those originals. See [recovery provenance](provenance/RECOVERY.md). The [source-beta record](RELEASE-STATUS.md) describes the reviewed publication.
 
+The smaller `software/browser/downloads/messier57-pd-instrument.zip` includes its own project licence, CHAIR MIT notice and source correspondence, Pure Data/libpd BSD notice, credits and setup guide. Existing Pd patches, recordings and hardware notes retain their reviewed bytes.
+
 [made by atelier neyra](https://atelierneyra.com)

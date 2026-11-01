@@ -1,8 +1,8 @@
 # Messier ’57
 
-An acoustic drum whose microphones excite a physically modelled snare. Designed and built by Peter Neyra.
+Messier ’57 is an electric drum whose microphones excite a physically modelled snare. Designed and built by Peter Neyra.
 
-[Open demo](https://atelierneyra.com/hardware/messier-57?play=1) · [Website](https://atelierneyra.com/hardware/messier-57) · [Download source](https://github.com/latintzar/messier57-instrument/releases/download/v0.1.0-source-beta/messier57-source-beta-v0.1.0.zip) · [Source beta](RELEASE-STATUS.md)
+[Open demo](https://atelierneyra.com/hardware/messier-57?play=1) · [Website](https://atelierneyra.com/hardware/messier-57) · [Download source](https://github.com/latintzar/messier57-instrument/releases/download/v0.1.1-source-beta/messier57-source-beta-v0.1.1.zip) · [Source beta](RELEASE-STATUS.md)
 
 [![Messier ’57 drum on its stand beside an amplifier](https://atelierneyra.com/hardware/media/92b6541e_6.jpg)](https://atelierneyra.com/hardware/messier-57)
 
@@ -62,6 +62,12 @@ node --experimental-default-type=module software/browser/libpd-engine/test-engin
 ```
 
 Node.js 22 or later runs the shipped offline worklet checks without an npm install. `software/browser/libpd-engine/VALIDATION.json`, `PARITY.json` and `FULL-PARITY.json` retain earlier engine evidence. Browser interaction and audible checks are separate from numerical DSP checks.
+
+Validate the smaller Pd download and its bundled notices with:
+
+```sh
+python3 scripts/check-pd-download.py
+```
 
 ## Agents
 

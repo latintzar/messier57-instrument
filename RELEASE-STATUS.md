@@ -2,6 +2,8 @@
 
 This release contains the instrument and source reviewed by Peter Neyra: the browser and Pure Data auditions, original Rhino CAD, BOM, specifications, build notes and separately identified visualisation files.
 
+The v0.1.1 source beta adds self-contained credits, upstream notices and a source map to the smaller Pd-only download. Every pre-existing member of that archive keeps its original bytes.
+
 The browser runs the original CHAIR/libpd snare, a later low-tuned bongo kick, shared room reverb and ten editable grooves. Manual head/rim selection provides the audition’s zone control. Historical Bonk, Bela and training patches remain in `software/pure-data/original-project/` with their source context.
 
 Start with the [README](README.md), then use the [architecture guide](docs/architecture.md), [function index](docs/functions.md) or [agent skill](skills/messier57-instrument/SKILL.md). The [file manifest](provenance/file-sha256.json) records the source bytes. Release downloads include a SHA256 checksum.

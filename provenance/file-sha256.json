@@ -1,6 +1,6 @@
 {
   "self_excluded": true,
-  "release": "v0.1.0-source-beta",
+  "release": "v0.1.1-source-beta",
   "files": [
     {
       "path": ".gitignore",
@@ -14,18 +14,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 5806,
-      "sha256": "d534d11198f78692e6e9bd2f8c0cc60c6043200a6435ea82aa9c5a0c2dde5724"
+      "bytes": 5935,
+      "sha256": "77bee36892545caba83526ab0b142c8407a79934d054229c3c89cc0210c194ef"
     },
     {
       "path": "RELEASE-STATUS.md",
-      "bytes": 1172,
-      "sha256": "17cd133c5a5ed143b1b68b40b61065b6a0a82ee1c5b682889f9c3e5f5a5ff8f5"
+      "bytes": 1360,
+      "sha256": "8a6955462530dff4e65229f14f735388c343b111ff9b3cd9551ed7645e4dd9b8"
     },
     {
       "path": "THIRD-PARTY.md",
-      "bytes": 2648,
-      "sha256": "c355a15455e90abc12948b01dc6e982ef8f10e811dde3e35df8461ff368e8038"
+      "bytes": 2929,
+      "sha256": "f00eacbf99f20d7f9e2c24e9e9cf3cab01373fdf60ffdaddd5eb8674b7ff2e79"
     },
     {
       "path": "docs/architecture.md",
@@ -59,13 +59,18 @@
     },
     {
       "path": "provenance/RECOVERY.md",
-      "bytes": 2499,
-      "sha256": "b085f858a31519d5add8efc4107d0b3e062663500384964cd725c9391c80b88d"
+      "bytes": 2796,
+      "sha256": "902abaadad48db2ddeba4a4b8e60de7d4331a4fe5c24bfb23d3b42ddd222bc88"
     },
     {
       "path": "provenance/function-index.json",
       "bytes": 4721,
       "sha256": "45b6411699563e9c924f12555337701c0a9b0dacbd9b9693846b7209b5c5bc32"
+    },
+    {
+      "path": "scripts/check-pd-download.py",
+      "bytes": 2683,
+      "sha256": "3a3492b7089f3666d2f1d44aa635a87c2f8c15356156962e5713d31c5b268a5b"
     },
     {
       "path": "skills/messier57-instrument/SKILL.md",
@@ -124,8 +129,8 @@
     },
     {
       "path": "software/browser/downloads/messier57-pd-instrument.zip",
-      "bytes": 125734,
-      "sha256": "d65f9332c993673fe016d5f418cd20fd31d0d10869c511c1333a3b7ec0848c45"
+      "bytes": 129034,
+      "sha256": "a14814645f50e4a2314dc0927e1376890738467c0abc81766edad240c625442a"
     },
     {
       "path": "software/browser/engine/assets/head-excitation.wav",
@@ -468,16 +473,6 @@
       "sha256": "6c64111453357083722eb09a1ffc609798cbb7e5d600383afbcd100466e75022"
     },
     {
-      "path": "software/pure-data/grooves.json",
-      "bytes": 29413,
-      "sha256": "78176497bbbe084f62b3ef1eecf20dc55f1bc92dc43e343c9ca528d944863a18"
-    },
-    {
-      "path": "software/pure-data/grooves.pd",
-      "bytes": 1886,
-      "sha256": "e0b361432fbd158ac565ab9c2c93bdb475bb3681f877861a7e04948b69f4c1e9"
-    },
-    {
       "path": "software/pure-data/grooves/afrobeat.txt",
       "bytes": 1048,
       "sha256": "6c2ec8e5b46d5230c58df063c7a9c95c3a37372e77071e23bbb56117e815709c"
@@ -526,6 +521,16 @@
       "path": "software/pure-data/grooves/tamborzao.txt",
       "bytes": 823,
       "sha256": "979da8fa06d1b38b32788fd0dfea4803b3a6542c4e7f6084ced5dfc41566997f"
+    },
+    {
+      "path": "software/pure-data/grooves.json",
+      "bytes": 29413,
+      "sha256": "78176497bbbe084f62b3ef1eecf20dc55f1bc92dc43e343c9ca528d944863a18"
+    },
+    {
+      "path": "software/pure-data/grooves.pd",
+      "bytes": 1886,
+      "sha256": "e0b361432fbd158ac565ab9c2c93bdb475bb3681f877861a7e04948b69f4c1e9"
     },
     {
       "path": "software/pure-data/head-excitation.wav",
