@@ -4,6 +4,8 @@ An acoustic drum whose microphones excite a physically modelled snare. Designed 
 
 [Open demo](https://atelierneyra.com/hardware/messier-57?play=1) · [Website](https://atelierneyra.com/hardware/messier-57) · [Download source](https://github.com/latintzar/messier57-instrument/releases/download/v0.1.0-source-beta/messier57-source-beta-v0.1.0.zip) · [Source beta](RELEASE-STATUS.md)
 
+[![Messier ’57 drum on its stand beside an amplifier](https://atelierneyra.com/hardware/media/92b6541e_6.jpg)](https://atelierneyra.com/hardware/messier-57)
+
 ## Play in the browser
 
 Python 3 and a browser with Web Audio and WebGL are enough. From this repository:
