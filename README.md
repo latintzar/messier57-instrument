@@ -1,77 +1,41 @@
 # Messier ’57
 
-Messier ’57 is an electric drum whose microphones excite a physically modelled snare. Designed and built by Peter Neyra.
+An electric drum with an acoustic feel.
 
-[Open demo](https://atelierneyra.com/hardware/messier-57?play=1) · [Website](https://atelierneyra.com/hardware/messier-57) · [Download source](https://github.com/latintzar/messier57-instrument/releases/download/v0.1.1-source-beta/messier57-source-beta-v0.1.1.zip) · [Source beta](RELEASE-STATUS.md)
+Messier ’57 is an electric drum whose microphones excite a physically modelled snare. It explores a wider sound palette while preserving the touch of head and rim playing. This reusable project includes the browser and Pure Data instruments, original Rhino CAD, BOM and build notes. Designed and built by Peter Neyra.
+
+[Open demo](https://atelierneyra.com/hardware/messier-57?play=1) · [Website](https://atelierneyra.com/hardware/messier-57) · [Product tour](docs/product-tour.md) · [Download v0.1.1 source beta](https://github.com/latintzar/messier57-instrument/releases/download/v0.1.1-source-beta/messier57-source-beta-v0.1.1.zip)
 
 [![Messier ’57 drum on its stand beside an amplifier](https://atelierneyra.com/hardware/media/92b6541e_6.jpg)](https://atelierneyra.com/hardware/messier-57)
 
-## Play in the browser
+## Play a groove
 
-Python 3 and a browser with Web Audio and WebGL are enough. From this repository:
+Open the demo and choose **Enable audio** or **Continue without audio**. Strike the head or rim, or play the kick with **K**. Choose one of ten grooves and press **Play beat**; edit its kick/head/rim steps while it runs. Hold **S**, **Shift** or the brass latch to loosen the snares. One **Volume** sets the output and **Stop** ends the beat.
 
-```sh
-python3 -m http.server 8000 --bind 127.0.0.1
-```
+The [product tour](docs/product-tour.md) walks through the playing controls, editable sequencer, audio choice and source modules.
 
-Open [the instrument](http://127.0.0.1:8000/software/browser/index.html?embed=1), then choose **Enable audio**. The player, model, excitation recordings, fonts and DSP runtime are included locally.
+## What is included
 
-- **H**: head. **R**: rim. **K**: kick.
-- Hold **S**, **Shift** or the brass latch to loosen the snares.
-- **Head / Rim / Both** chooses which areas excite the snare.
-- Choose one of ten grooves and press **Play beat**. Click kick/head/rim cells to edit the rhythm.
-- Drag a percentage up or right to increase loosening; down or left decreases it. Arrow keys work too.
-- One **Volume** controls the output; **Stop** ends the beat and releases held controls.
-
-Audio starts after an explicit choice. The instrument processes locally and uses its included excitations. It runs with the included local assets.
-
-## Play in Pure Data
-
-Open `software/pure-data/desktop.pd` in Pure Data Vanilla, then open `grooves.pd` beside it. DSP starts when the desktop patch loads; start with low output volume. The same three voices, controls and ten groove scores are included.
-
-The original snare runs in native Pd and in the browser's pinned libpd C/WASM runtime. The newer demonstration kick uses CHAIR’s unchanged `bongo~` resonator tuned low. Browser voices share one stereo convolution room; native Pd uses the included CHAIR/Tom Erbe Chris Moore reverb.
-
-## Source map
-
-[Architecture and workflows](docs/architecture.md) · [Function index](docs/functions.md)
-
-| Path | Contents |
+| Area | What you can use |
 | --- | --- |
-| `software/browser/app.js` | Audio choice, excitation, sensing, latch, controls and groove scheduling |
-| `software/browser/sequencer.js` | Editable hit cells and per-step loosening |
-| `software/browser/scene.js` | Fixed material/shadow view and head/rim/latch interaction |
-| `software/browser/room-reverb.js` | Shared stereo room impulse and wet/dry routing |
-| `software/browser/libpd-engine/` | Actual C/WASM DSP adapter, Pd source, provenance and numerical checks |
-| `software/pure-data/` | Portable desktop audition, dependencies, WAV excitations and ten qlist scores |
-| `software/pure-data/original-project/` | Recovered hardware/Bonk patches and training templates |
-| `hardware/cad/Electric Drum.3dm` | Original native Rhino design |
-| `hardware/BOM.csv` | Parts, evidence and remaining specifications |
-| `hardware/SPECIFICATIONS.md`, `BUILD-NOTES.md` | Controls, known dimensions, assembly context and measurements to recover |
-| `visualisation/` | Editable Blender presentation scene and compressed GLB |
+| Browser instrument | Actual CHAIR snare through libpd C/WASM, a low-tuned modelled kick and shared stereo room reverb |
+| Sequencer | Ten two-bar grooves with kick, editable kick/head/rim hits and per-step snare loosening |
+| Playing controls | Head/Rim/Both selection, hold-to-loosen latch and dark percentage controls |
+| Pure Data instrument | Portable desktop audition, dependencies, excitations and groove scores |
+| Hardware | Original Rhino design, BOM, specifications and build notes |
+| Visualisation | Separately identified Blender scene and compressed GLB |
 
-The original prototype used a central lavalier and edge contact microphone to excite one snare model. Its selector used a small dot for head, a ring for rim and a large dot for both. A short internal spring returned the brass latch and shaft. Saved baseline: tuning `.6`, rattle `.8`, damping `.6`.
+## Run and understand it
 
-The audition maps latch pull to `rattle = .8 × (1 − pull)` and substitutes manual zone choice for live Bonk classification. Its kick is a later demonstration voice. Original notes record Bela CPU limits and a planned Intel mini-PC/Max continuation. Historical patches and training templates preserve that work; their hardware runtime and large recording datasets remain separate.
+[Play locally in a browser or Pure Data](docs/getting-started.md). The browser ships its model, excitation recordings and DSP runtime locally. Browser audio begins with an explicit user choice.
 
-The Blender scene is a presentation reconstruction. The original Rhino file remains the mechanical reference. The portfolio’s retouched curved mahogany support image is a separate presentation asset, rather than a revised manufacturing drawing.
+[Architecture](docs/architecture.md) explains the audio graph, timing and teardown. [Instrument reference](docs/instrument-reference.md) preserves the detailed source map, hardware history, model parameters and DSP checks. [Function index](docs/functions.md) and [source navigation skill](skills/messier57-instrument/SKILL.md) map a change to its actual module.
 
-## Validate the DSP
+## Reached stage
 
-```sh
-node --experimental-default-type=module software/browser/libpd-engine/test-engine.mjs
-```
+This is the [reviewed source beta](RELEASE-STATUS.md). The browser audition uses manual Head/Rim/Both selection and included microphone excitations; the original hardware classifier patches remain in the archive. Its kick is a later demonstration voice. Native Rhino CAD is the mechanical reference; presentation reconstructions are identified separately.
 
-Node.js 22 or later runs the shipped offline worklet checks without an npm install. `software/browser/libpd-engine/VALIDATION.json`, `PARITY.json` and `FULL-PARITY.json` retain earlier engine evidence. Browser interaction and audible checks are separate from numerical DSP checks.
-
-Validate the smaller Pd download and its bundled notices with:
-
-```sh
-python3 scripts/check-pd-download.py
-```
-
-## Agents
-
-Read [the source navigation skill](skills/messier57-instrument/SKILL.md). It maps controls to the actual modules, explains the first result and records the historical boundaries. Copy its folder to your agent's skills directory when useful.
+The **v0.1.1 source-beta download is a fixed reviewed snapshot**. Documentation on `main` can develop separately; the release archive and its checksum retain their original bytes.
 
 ## Credits and reuse
 
